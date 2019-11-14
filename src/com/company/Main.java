@@ -18,9 +18,13 @@ public class Main {
 	Triangle objTriangle = new Triangle();
 	objTriangle.Triangle();
 
-
 	IsoscelesTriangle objIT = new IsoscelesTriangle();
 	objIT.IsoscelesTriangle();
 
+	LongestString objLS = new LongestString();
+	objLS.FindLongestString();
+
+	CombineTwoArrays objCTA = new CombineTwoArrays();
+	objCTA.Combine2Arrays();
     }
 }
