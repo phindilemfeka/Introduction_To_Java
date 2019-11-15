@@ -6,8 +6,8 @@ public class LongestString {
         String[] names = {"the", "quick", "brown", "fox", "ate", "my", "chickens"};
         String Firstname = names[0];
 
-        for (int i = 1; i < Firstname.length(); i++) {
-            if (names[1].length() > Firstname.length()) ;
+        for (int i = 1; i < names.length; i++) {
+            if (names[i].length() > Firstname.length()) ;
             {
                 Firstname = names[i];
             }
